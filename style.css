@@ -91,7 +91,7 @@ body,
 label,
 input {
 	margin: 4px 10px;
-	font-size: 18px;
+	font-size: 25px;
 }
 
 .buttons > *,
@@ -103,6 +103,12 @@ input {
 .buttons {
 	margin: 15px 10px 5px;
 	gap: 10px;
+}
+
+.buttons > * {
+	margin: 0px 0;
+	height: 40px;
+	font-size: 25px;
 }
 
 .submit {
@@ -179,6 +185,10 @@ input {
 	padding: 20px;
 	color: white;
 	font-size: 25px;
+}
+
+.book > * {
+	margin: 10px 0;
 }
 
 .book-title {
